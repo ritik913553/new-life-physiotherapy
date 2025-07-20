@@ -126,7 +126,7 @@ const Footer = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.facebook.com/share/1Ay5UYR62T/"
+                                        href="#"
                                         className=" text-[#048099] flex items-center gap-2"
                                     >
                                         <FacebookIcon />
@@ -135,7 +135,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://www.instagram.com/digitalmato_?igsh=MTlvN3J3NmFjaGlrNg=="
+                                        href="#"
                                         className="text-[#7255A1]"
                                     >
                                         <Instagram />
@@ -144,7 +144,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://www.linkedin.com/company/digitalmato/"
+                                        href="#"
                                         className=" text-[#048099]"
                                     >
                                         <LinkedinIcon />
@@ -154,7 +154,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://youtube.com/@digitalmato3757?si=lFaTm5bPMhJ4Jqko"
+                                        href="#"
                                         className=" text-red-500"
                                     >
                                         <Youtube />
