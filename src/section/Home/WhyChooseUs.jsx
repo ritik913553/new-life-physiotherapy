@@ -68,7 +68,7 @@ const WhyChooseUs = () => {
 
     const handleScroll = () => {
         const stackArea = sectionRef.current;
-        const distance = window.innerHeight / 3;
+        const distance = window.innerHeight / 2;
         const topVal = stackArea.getBoundingClientRect().top;
         let index = -1 * (topVal / distance + 1);
         index = Math.floor(index);
@@ -94,7 +94,7 @@ const WhyChooseUs = () => {
     return (
         <div
             ref={sectionRef}
-            className="w-full relative h-[380vh] bg-[#EAF2F5]"
+            className="w-full relative h-[400vh] bg-[#EAF2F5]"
         >
             <div className="h-screen whyChoose sticky top-0 sm:flex sm:flex-row flex flex-col max-w-6xl mx-auto py-8 md:py-12 lg:pt-10">
                 <div className="sm:w-1/2 h-full flex flex-col  justify-center p-4 sm:p-0">
