@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter_28pt-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+button{
+    cursor:pointer
+}
+
+.poppins-font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.inter-font {
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: green;
+    border-radius: 10px;
+}
+
